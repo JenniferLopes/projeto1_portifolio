@@ -1,20 +1,32 @@
-# Do Zero ao Blog no Ar com Quarto
+# Do Zero ao site no ar com Quarto - Apostila
 
-**Material de apoio da Playlist — Café com R**  
+**Material de apoio da Playlist - Café com R**  
 **Autora:** Jennifer Luz Lopes
 
----
 
 ## Sobre este repositório
 
-Este é o **repositório central** da playlist **"Do Zero ao Blog no Ar"**, disponível gratuitamente no YouTube.
+Este é o **repositório da apostila** da playlist **"Do Zero ao site no ar com Quarto"**, disponível gratuitamente no YouTube.
 
-Aqui você encontra todos os materiais, códigos e links dos projetos desenvolvidos ao longo da playlist. Conforme novos projetos forem publicados, este repositório será atualizado com os respectivos links e recursos.
+Aqui você encontra o arquivo `.qmd` da apostila, o CSS de estilo e todas as imagens utilizadas no material. É o repositório que você precisa clonar para acompanhar e renderizar a apostila localmente no RStudio.
 
-> Repositório central de todos os projetos e códigos da playlist:  
+> Este repositório contém exclusivamente o material de apoio desta playlist.  
+> O repositório central com todos os projetos e códigos do canal está em:  
 > [github.com/JenniferLopes/projetos_YouTube](https://github.com/JenniferLopes/projetos_YouTube)
 
----
+
+## Estrutura do repositório
+
+```
+projeto1_portifolio/
+├── apostila_quarto.qmd    ← apostila principal
+├── estilo_book.css        ← estilo customizado
+├── imgs/                  ← imagens utilizadas na apostila
+├── _publish.yml           ← configuração de publicação
+├── .gitignore
+└── renv/                  ← ambiente R reproduzível
+```
+
 
 ## O que você vai aprender
 
@@ -33,7 +45,6 @@ Aqui você encontra todos os materiais, códigos e links dos projetos desenvolvi
 | V11 | Publicando no Quarto Pub |
 | V12 | Publicando no Netlify |
 
----
 
 ## Materiais desta playlist
 
@@ -44,42 +55,33 @@ Aqui você encontra todos os materiais, códigos e links dos projetos desenvolvi
 | Canal YouTube | [youtube.com/@jennifercafecomr](https://www.youtube.com/@jennifercafecomr) |
 | Cadastro para materiais | [cafecomr-conteudos.lovable.app](https://cafecomr-conteudos.lovable.app/) |
 
----
-
-## Estrutura do repositório
-
-```
-projetos_YouTube/
-├── README.md                  ← você está aqui
-├── playlist_01_blog_quarto/   ← materiais desta playlist
-│   ├── apostila_quarto.qmd
-│   ├── estilo_book.css
-│   └── imgs/
-└── playlist_02_primeiro_projeto/  ← em breve
-```
-
----
 
 ## Como usar este material
 
-1. Clone ou baixe o repositório
-2. Abra o projeto no RStudio
+1. Clone este repositório
+2. Abra o arquivo `projeto1_portifolio.Rproj` no RStudio
 3. Certifique-se de ter R, RStudio e Quarto instalados
-4. Renderize o arquivo `apostila_quarto.qmd` com o botão **Render**
+4. Renderize a apostila com o botão **Render** ou via terminal:
 
 ```bash
 quarto render apostila_quarto.qmd
 ```
 
----
+Para visualizar localmente antes de publicar:
+
+```bash
+quarto preview apostila_quarto.qmd
+```
+
+
 
 ## Pré-requisitos
 
-- [R](https://cran.r-project.org) — versão 4.1 ou superior
+- [R](https://cran.r-project.org) - versão 4.1 ou superior
 - [RStudio](https://posit.co/download/rstudio-desktop) ou [Positron](https://github.com/posit-dev/positron/releases)
-- [Quarto CLI](https://quarto.org/docs/get-started) — versão 1.4 ou superior
+- [Quarto CLI](https://quarto.org/docs/get-started) - versão 1.4 ou superior
 
----
+
 
 ## Sobre a autora
 
@@ -93,9 +95,8 @@ Doutora em Melhoramento Genético de Plantas pela UFPel. Analista de Dados SR na
 | GitHub | [github.com/JenniferLopes](https://github.com/JenniferLopes) |
 | LinkedIn | [linkedin.com/in/jennifer-luz-lopes](https://linkedin.com/in/jennifer-luz-lopes) |
 
----
 
-<!-- BOTÕES HTML — funcionam no GitHub com suporte a HTML -->
+<!-- BOTÕES HTML - funcionam no GitHub com suporte a HTML -->
 
 <div style="display:flex; flex-direction:column; gap:12px; padding:1rem 0; max-width:420px;">
 
