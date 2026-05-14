@@ -87,7 +87,7 @@ quarto preview apostila_quarto.qmd
 ## Sobre a autora
 
 **Jennifer Luz Lopes**  
-Doutora em Melhoramento Genético de Plantas pela UFPel. Analista de Dados SR na Suzano S.A. Consultora, instrutora e mentora em R. Criadora do Café com R e cofundadora da R-Ladies Goiânia.
+Doutora em Melhoramento Genético de Plantas pela UFPel. Consultora, instrutora e mentora em R. Criadora do Café com R e cofundadora da R-Ladies Goiânia.
 
 | Canal | Link |
 |---|---|
