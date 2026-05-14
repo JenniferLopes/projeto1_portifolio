@@ -7,6 +7,7 @@
 ## Sobre este repositório
 
 Este é o **repositório da apostila** da playlist **"Do Zero ao site no ar com Quarto"**, disponível gratuitamente no YouTube.
+Apostila HTML: https://projetoportifolio-nor.netlify.app/
 
 Aqui você encontra o arquivo `.qmd` da apostila, o CSS de estilo e todas as imagens utilizadas no material. É o repositório que você precisa clonar para acompanhar e renderizar a apostila localmente no RStudio.
 
